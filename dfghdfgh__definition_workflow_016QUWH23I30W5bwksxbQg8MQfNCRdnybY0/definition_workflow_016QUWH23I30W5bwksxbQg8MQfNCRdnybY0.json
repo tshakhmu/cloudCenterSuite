@@ -1,0 +1,55 @@
+{
+  "workflow": {
+    "unique_name": "definition_workflow_016QUWH23I30W5bwksxbQg8MQfNCRdnybY0",
+    "name": "test export bug",
+    "title": "test export bug",
+    "type": "generic.workflow",
+    "base_type": "workflow",
+    "variables": null,
+    "properties": {
+      "atomic": {
+        "is_atomic": false
+      },
+      "delete_workflow_instance": false,
+      "display_name": "test export bug",
+      "favorite": false,
+      "target": {
+        "execute_on_target_group": false,
+        "execute_on_workflow_target": false,
+        "no_target": true,
+        "specify_on_workflow_start": false
+      }
+    },
+    "object_type": "definition_workflow",
+    "actions": [
+      {
+        "unique_name": "definition_activity_016QUWZOA8G8O46VdNZMG6Pn84hmmVEXlJP",
+        "name": "Sleep",
+        "title": "Sleep",
+        "type": "core.sleep",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "Sleep",
+          "sleep_interval": "$global.variable_016QUXE1RRW1C0V4pbIC3u9ZgJMGZghBPEl.global.variable_016QUXE1RRW1C0V4pbIC3u9ZgJMGZghBPEl$"
+        },
+        "object_type": "definition_activity"
+      }
+    ],
+    "categories": [
+      "category_1BMfMXSnJMyt5Ihqi7rWJr5N8cf"
+    ]
+  },
+  "variables": {
+    "variable_016QUXE1RRW1C0V4pbIC3u9ZgJMGZghBPEl": {
+      "unique_name": "variable_016QUXE1RRW1C0V4pbIC3u9ZgJMGZghBPEl",
+      "properties": {
+        "value": 1,
+        "scope": "global",
+        "name": "testInt",
+        "type": "datatype.integer"
+      },
+      "object_type": "variable"
+    }
+  }
+}
