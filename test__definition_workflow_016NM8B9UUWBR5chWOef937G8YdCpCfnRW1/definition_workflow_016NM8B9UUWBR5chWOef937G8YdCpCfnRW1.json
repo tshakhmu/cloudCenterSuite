@@ -1,8 +1,8 @@
 {
   "workflow": {
     "unique_name": "definition_workflow_016NM8B9UUWBR5chWOef937G8YdCpCfnRW1",
-    "name": "tttttt",
-    "title": "tttttt",
+    "name": "tttttt12",
+    "title": "tttttt12",
     "type": "generic.workflow",
     "base_type": "workflow",
     "variables": null,
@@ -11,7 +11,7 @@
         "is_atomic": false
       },
       "delete_workflow_instance": false,
-      "display_name": "tttttt",
+      "display_name": "tttttt12",
       "favorite": false,
       "target": {
         "execute_on_target_group": false,
