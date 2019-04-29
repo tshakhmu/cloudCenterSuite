@@ -1,0 +1,89 @@
+{
+  "workflow": {
+    "unique_name": "definition_workflow_016NM8B9UUWBR5chWOef937G8YdCpCfnRW1",
+    "name": "ttttt",
+    "title": "ttttt",
+    "type": "generic.workflow",
+    "base_type": "workflow",
+    "variables": null,
+    "properties": {
+      "atomic": {
+        "is_atomic": false
+      },
+      "delete_workflow_instance": false,
+      "display_name": "ttttt",
+      "favorite": false,
+      "target": {
+        "execute_on_target_group": false,
+        "execute_on_workflow_target": false,
+        "no_target": true,
+        "specify_on_workflow_start": false
+      },
+      "timeout": 3600
+    },
+    "object_type": "definition_workflow",
+    "actions": [
+      {
+        "unique_name": "definition_activity_016NM8H0LGFD44ZJ5nHLI3Oe1Vgtd2ZZ9pS",
+        "name": "test",
+        "title": "test",
+        "type": "workflow.sub_workflow",
+        "base_type": "subworkflow",
+        "properties": {
+          "atomic": {
+            "is_atomic": false
+          },
+          "continue_on_failure": false,
+          "delete_workflow_instance": false,
+          "display_name": "test",
+          "favorite": false,
+          "input": {},
+          "target": {
+            "execute_on_target_group": false,
+            "execute_on_workflow_target": false,
+            "no_target": true,
+            "override_workflow_target": false,
+            "specify_on_workflow_start": false
+          },
+          "timeout": 3600,
+          "workflow_id": "definition_workflow_0169542FY98DB74cIWGudYGkQLQ6Fg0yGHO"
+        },
+        "object_type": "definition_activity"
+      }
+    ],
+    "categories": [
+      "category_1BMfMXSnJMyt5Ihqi7rWJr5N8cf"
+    ]
+  },
+  "subworkflows": [
+    {
+      "workflow": {
+        "unique_name": "definition_workflow_0169542FY98DB74cIWGudYGkQLQ6Fg0yGHO",
+        "name": "test",
+        "title": "test",
+        "type": "generic.workflow",
+        "base_type": "workflow",
+        "variables": null,
+        "properties": {
+          "atomic": {
+            "is_atomic": false
+          },
+          "delete_workflow_instance": false,
+          "display_name": "test",
+          "favorite": false,
+          "target": {
+            "execute_on_target_group": false,
+            "execute_on_workflow_target": false,
+            "no_target": true,
+            "specify_on_workflow_start": false
+          },
+          "timeout": 3600
+        },
+        "object_type": "definition_workflow",
+        "categories": [
+          "category_1BMfMXSnJMyt5Ihqi7rWJr5N8cf"
+        ]
+      }
+    }
+  ]
+}
