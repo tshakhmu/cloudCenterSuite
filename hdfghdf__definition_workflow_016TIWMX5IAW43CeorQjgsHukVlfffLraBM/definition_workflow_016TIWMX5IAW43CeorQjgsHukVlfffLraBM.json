@@ -1,8 +1,8 @@
 {
   "workflow": {
     "unique_name": "definition_workflow_016TIWMX5IAW43CeorQjgsHukVlfffLraBM",
-    "name": "test bad export 11909",
-    "title": "test bad export 11909",
+    "name": "test bad export 11909123",
+    "title": "test bad export 11909123",
     "type": "generic.workflow",
     "base_type": "workflow",
     "variables": null,
@@ -11,7 +11,7 @@
         "is_atomic": false
       },
       "delete_workflow_instance": false,
-      "display_name": "test bad export 11909",
+      "display_name": "test bad export 11909123",
       "favorite": false,
       "target": {
         "execute_on_target_group": false,
