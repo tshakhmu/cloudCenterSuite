@@ -1,0 +1,88 @@
+{
+  "workflow": {
+    "unique_name": "definition_workflow_016TIWMX5IAW43CeorQjgsHukVlfffLraBM",
+    "name": "test bad export 11909",
+    "title": "test bad export 11909",
+    "type": "generic.workflow",
+    "base_type": "workflow",
+    "variables": null,
+    "properties": {
+      "atomic": {
+        "is_atomic": false
+      },
+      "delete_workflow_instance": false,
+      "display_name": "test bad export 11909",
+      "favorite": false,
+      "target": {
+        "execute_on_target_group": false,
+        "execute_on_workflow_target": false,
+        "no_target": true,
+        "specify_on_workflow_start": false
+      }
+    },
+    "object_type": "definition_workflow",
+    "actions": [
+      {
+        "unique_name": "definition_activity_016TIWYV2IETE7TADgebrSUzUPjJus0b28w",
+        "name": "ghj",
+        "title": "ghj",
+        "type": "workflow.sub_workflow",
+        "base_type": "subworkflow",
+        "properties": {
+          "atomic": {
+            "is_atomic": false
+          },
+          "continue_on_failure": false,
+          "delete_workflow_instance": false,
+          "display_name": "ghj",
+          "favorite": false,
+          "input": {},
+          "target": {
+            "execute_on_target_group": false,
+            "execute_on_workflow_target": false,
+            "no_target": true,
+            "override_workflow_target": false,
+            "specify_on_workflow_start": false
+          },
+          "timeout": 3600,
+          "workflow_id": "definition_workflow_016974HJBLFMP6JxdxQBctQtcJxfboZwB1B"
+        },
+        "object_type": "definition_activity"
+      }
+    ],
+    "categories": [
+      "category_1BMfMXSnJMyt5Ihqi7rWJr5N8cf"
+    ]
+  },
+  "subworkflows": [
+    {
+      "workflow": {
+        "unique_name": "definition_workflow_016974HJBLFMP6JxdxQBctQtcJxfboZwB1B",
+        "name": "ghj",
+        "title": "ghj",
+        "type": "generic.workflow",
+        "base_type": "workflow",
+        "variables": null,
+        "properties": {
+          "atomic": {
+            "is_atomic": false
+          },
+          "delete_workflow_instance": false,
+          "display_name": "ghj",
+          "favorite": false,
+          "target": {
+            "execute_on_target_group": false,
+            "execute_on_workflow_target": false,
+            "no_target": true,
+            "specify_on_workflow_start": false
+          },
+          "timeout": 3600
+        },
+        "object_type": "definition_workflow",
+        "categories": [
+          "category_1BMfMXSnJMyt5Ihqi7rWJr5N8cf"
+        ]
+      }
+    }
+  ]
+}
